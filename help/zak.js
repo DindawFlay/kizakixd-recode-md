@@ -1,5 +1,5 @@
 exports.wait = () => {
-    return `Loading...`
+    return `*[❗] Please Wait...*`
 }
 
 exports.ok = () => {
@@ -7,9 +7,9 @@ exports.ok = () => {
 }
 
 exports.err = () => {
-    return `Fitur Sedang Tahap Perbaikan
+    return `*[❗] Fitur Sedang Tahap Perbaikan
 
-Sedang Lapor Bug Ke Owner`
+Segera Lapor Bug Ke Owner*`
 }
 
 exports.emptyMess = () => {
@@ -25,11 +25,11 @@ exports.doneOwner = () => {
 }
 
 exports.groupOnly = () => {
-    return `Command ini hanya bisa digunakan di dalam grup!`
+    return `*[❗] Masuk grup dlu ngab cuma bisa di grup*`
 }
 
 exports.adminOnly = () => {
-    return `Command ini hanya bisa digunakan oleh admin grup!`
+    return `*[❗]Command ini hanya bisa digunakan oleh admin grup*`
 }
 
 exports.nhFalse = () => {
@@ -51,7 +51,7 @@ exports.adminAlready = () => {
 }
 
 exports.botNotAdmin = () => {
-    return `Jadikan Bot Sebagai Admin`
+    return `*[❗] Jadikan Bot Sebagai Admin*`
 }
 
 exports.received = (pushname) => {
@@ -61,22 +61,22 @@ Terima Kasih Telah Melapor, Laporanmu Akan Kami Segera Terima.`
 }
 
 exports.videoLimit = () => {
-    return `Ukuran File Terlalu Besar!`
+    return `*[❗] Ukuran File Terlalu Besar*`
 }
 
 exports.notNum = (q) => {
-    return `"${q}", Bukan Angka!`
+    return `"${q}",*[❗] Bukan Angka*`
 }
 
 exports.listMenu = (time, salam, pushname, prefix) => {
     return `
 *┏━━━━━━━━━━━━━━━━━━*    
-*┃┌────[ I T S U K I ]────*
+*┃┌────[ N A B L B O T Z ]────*
 *┃│*
 *┃│ ⫹⫺ Library : Baileys-Md*
 *┃│ ⫹⫺ Version : 1.0.1*
 *┃│ ⫹⫺ Language : Javascript*
-*┃│ ⫹⫺ Author : KiZakiXD*
+*┃│ ⫹⫺ Author : NbilaBOTZ*
 *┃│ ⫹⫺ Your Name : ${pushname}*
 *┃│ ⫹⫺ Time : ${time}*
 *┃│ ⫹⫺ Ucapan : Selamat ${salam}*
