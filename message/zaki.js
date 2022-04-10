@@ -215,7 +215,7 @@ zaki.relayMessage(id, buatpesan.message, { messageId: buatpesan.key.id })
           },
           {
             "quickReplyButton": {
-              "displayText": "Script",
+              "displayText": "Script Code",
               "id": `${prefix}sc`,
             }
           },
@@ -601,7 +601,7 @@ zaki.relayMessage(id, buatpesan.message, { messageId: buatpesan.key.id })
                     txt += `*📫 Title :* ${data.title}\n`
                     txt += `*🎥📸 Total File :* ${data.medias.length}\n`
                     txt += `*📚 Url Source :* ${data.url}\n\n`
-                    txt += `*Mohon tunggu sebentar kak, sedang proses pengiriman...*`
+                    txt += `*[💫] Proses Please Wait...*`
                     await textImg(txt).then(async res => {
                         for (let i of data.medias) {
                             sendFileFromUrl(from, i.url, '', res)
@@ -649,7 +649,7 @@ zaki.relayMessage(id, buatpesan.message, { messageId: buatpesan.key.id })
                     txt += `*🎞️ Type :* ${data.medias[7].extension}\n`
                     txt += `*💾 Size :* ${data.medias[7].formattedSize}\n`
                     txt += `*📚 Url Source :* ${data.url}\n\n`
-                    txt += `*Mohon tunggu sebentar kak, sedang proses pengiriman...*`
+                    txt += `*[✨] Please Wait Prosess...*`
                     sendFileFromUrl(from, data.thumbnail, txt, msg)
                     sendFileFromUrl(from, data.medias[7].url, '', msg)
                 })
