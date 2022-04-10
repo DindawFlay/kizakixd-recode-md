@@ -167,14 +167,14 @@ exports.tos = (ownerNumber, prefix) => {
 
 _Kalian Bisa Dukung Bot Lewat Donate Ke :_
 
- _》Dana : 085878313791_
- _》Gopay : 085878313791_
- _》Pulsa : 085878313791 ( Indosat )_
+ _》Top Indo : Chat Aku Ya kak jika ingin donasi:)_
+ _》Gopay : Belum Ada_
+ _》Pulsa : 089515233398 ( TRI 3 )_
 
 _Donate Kalian Sangat Berarti._
 
 _Contact person Owner:_
-_wa.me/6285878313791_
+_wa.me/6289515233398_
 
     `
 }
